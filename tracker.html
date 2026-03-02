@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zero Hunger Demeter - Tracker</title>
-      <link rel="icon" type="image/x-icon" href="tracker.ico">
+  <link rel="icon" type="image/x-icon" href="tracker.ico">
+  <script type="text/javascript" src="selecttagcode.js"></script>
 <link rel="stylesheet" href="navbar.css">
   <style>
 
@@ -23,12 +24,24 @@
     <br>
   <label class="heading codingishard" for="cars">Enter your location</label>
 
-<select class="codingishard heading" name="cars" id="cars">
-  <option value="Goatstown">Goatstown</option>
-  <option value="Dundrum">Dundrum</option>
-  <option value="Nutgrove">Nutgrove</option>
+<select class="codingishard heading" id="pageSelect" name="cars" >
+  <option>--Select--</option>
+  <option value="https://Google.com">Goatstown</option>
+  <option value="https://youtube.com">Dundrum</option>
+  <option value="https://maps.google.com">Nutgrove</option>
   <option value="Tallagh">Tallagh</option>
+  <option value="https://stackoverflow.com">Stack Overflow</option>
+  <option value="https://bing.com">Bing</option>
 </select>
+<script>
+  document.getElementById('pageSelect').addEventListener('change', function () {
+    const url = this.value;
+    if (url) {
+      window.location.href = url;
+    }
+  });
+</script>
+
 </center>
 </body>
 

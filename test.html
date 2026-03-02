@@ -1,0 +1,15 @@
+<select id="pageSelect">
+  <option value="">Choose a page…</option>
+  <option value="https://example.com">Example</option>
+  <option value="https://google.com">Google</option>
+  <option value="about.html">About (local page)</option>
+</select>
+
+<script>
+  document.getElementById('pageSelect').addEventListener('change', function () {
+    const url = this.value;
+    if (url) {
+      window.location.href = url;
+    }
+  });
+</script>
