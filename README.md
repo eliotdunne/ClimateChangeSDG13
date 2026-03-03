@@ -1,6 +1,6 @@
 # Classics Project
 ### A website I made for a competition <br>
-[![open Website](https://img.shields.io/static/v1?style=for-the-badge&label=Website&message=Open&color=purple&logo=download)](https://eliotdunne.github.io/zerohunger/)
+[![open Website](https://img.shields.io/static/v1?style=for-the-badge&label=Website&message=Open&color=hotpink&logo=download)](https://eliotdunne.github.io/zerohunger/)
 
 ## Powerpoint
 [![Download Powerpoint](https://img.shields.io/static/v1?style=for-the-badge&label=Powerpoint&message=Download&color=brightgreen&logo=download)](https://drive.google.com/uc?export=download&id=1q7MWy3AW014lng75qaEyH-nneQE6Cjrr)
