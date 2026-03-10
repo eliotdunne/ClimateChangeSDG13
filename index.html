@@ -80,6 +80,11 @@
       font-size: 20px;
       color: white;
       transition: opacity 0.3s;
+       background-size: 75% 75%;
+       
+      align-items: flex-start;
+      color: rgb(0, 0, 0);
+      font-size: x-large;
     }
 
     .box-3 {
@@ -87,19 +92,22 @@
       background-color: #ffea82;
       aspect-ratio: 1 / 1;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      color: rgb(0, 0, 0);
+      font-size: x-large;
       justify-content: center;
-      background-image: url(https://www.svgrepo.com/show/486929/about.svg);
+      background-image: url(https://www.shareicon.net/download/2015/09/25/107179_powerpoint_512x512.png);
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 75% 75%;
+      background-position: center;
       border: none;
       cursor: pointer;
       width: 100%;
-      padding: 0;
+      padding: 0px;
       font-family: 'Caesar Dressing';
       font-size: 20px;
-      color: white;
       transition: opacity 0.3s;
+      vertical-align: text-bottom;
     }
     .help{
       color: rgb(219, 134, 134);
@@ -207,9 +215,10 @@
   <!-- 2nd SDG Banner -->
   <a href="https://globalgoals.org/goals/2-zero-hunger/" class="help" target="_blank"><img class="chicken help" src="https://moabfoundation.org/wp-content/uploads/2020/05/sdg2.png" alt="2nd sdg banner"></a>
   <!-- Boxes -->
-   <div class="heading">
-    <h1 class="codingishard">Home</h1>
-    <p>This site brings together every farmers’ market across Dublin so you can quickly see what markets are close and when it’s open. </p> 
+   <div class="font2" style="text-align: center; padding: 20px;">
+    <h1 class="codingishard font">Home</h1>
+    <p>Welcome to my young classicist project! This is a website that I created to help people find food resources in their area. The website has a tracker that allows users to search for farmers' markets in their area. The website also has an about page that explains the project and its goals. I hope this website can help people start to buy more locally and support their local farmers.
+    </p> 
     <p> </p>
     </div>  
     <div class="container depad">
@@ -219,11 +228,11 @@
     </a> -->
 
     <a href="tracker.html" style="flex: 1 1 300px; text-decoration: none;">
-      <button class="box-2"></button>
+      <button class="box-2"><p>Tracker</p></button>
     </a>
 
     <a href="about.html" style="flex: 1 1 300px; text-decoration: none;">
-      <button class="box-3"></button>
+      <button class="box-3"><p>Presentation</p></button>
     </a>
   </div>
 
